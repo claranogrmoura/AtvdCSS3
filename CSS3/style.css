@@ -1,0 +1,125 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin: 0;  
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+header{
+    background-image: url(Img/textura-branca.jpg);
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    border-bottom: dotted 2px ;
+    order: 5;
+    padding: 10px;
+}
+div.nav{
+    width: 15%;
+    height: 100%;
+    background-image: url(Img/textura-branca.jpg);
+    margin-top: 80px;
+    margin-right: 0px;
+    border-bottom: dotted 2px ;
+    order: 5;
+    font-size: 50px;
+    image-orientation: 50px;
+    margin-top: 0%;
+    color: grey;
+}
+aside{
+  
+    width: 15%;
+    height: 100%;
+    background-image: url(Img/textura-branca.jpg);
+    margin-top: 80px;
+    border-left: dotted 2px ;
+    order: 1;
+    font-size: 15px;
+    image-orientation: 20px;
+    margin-left: 85%;
+    margin-top: 0%;
+    position: fixed;
+    
+}
+main{
+   background-image: url(Img/textura-cinza.jpg);
+   background-size: cover; 
+   width: 82%;
+   height: 100%;
+   padding: 20px;
+   margin-top: 80px;
+   border-top: 2px dotted rgb(255,250,250);
+   border-right: 2px dotted rgb(255,250,250) ;
+   order: 1;
+   position: fixed;
+
+}
+p{
+    color: rgb(255,250,250);
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16pt;
+}
+span{
+    color: rgb(255, 165, 0);
+}
+table{
+    margin: auto;
+    text-align: center;
+    border: 2px double rgb(255,250,250); 
+    font-size: 25px;
+}
+th{
+    text-align: left;
+    font-size: 14pt;
+    color: rgb(105,105,105);
+}
+a{
+ color: grey; 
+}
+.destaque{
+  font-size: 36pt;  
+}
+td.itens{
+  font-size: 12;
+  border: 2px double rgb(255,250,250); 
+  color: rgb(255,250,250); 
+  text-align: center;
+}
+th{
+    color: rgb(255,250,250);
+    border: 2px double rgb(255,250,250);
+    text-align: center;
+}
+caption{
+    color: rgb(30,144,255);
+    font-weight: bold;
+    border: 2px double rgb(255,250,250); 
+}
+.fote_ref{
+    text-align: right;
+    margin-left: 70%;
+    font-size: 12pt;
+    color: rgb(255,215,0);
+}
+div.principal{
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+a.link:hover{
+   background-color: rgb(105,105,105); 
+   opacity: 0.75;
+   color: rgb(255,250,250);
+}
+th:hover{
+    background-color: rgb(105,105,105); 
+    opacity: 0.75;
+    color: rgb(255,250,250);
+}
+.fote_ref:hover{
+    background-color: rgb(105,105,105); 
+    opacity: 0.75;
+    color: rgb(255,250,250);
+}
+
